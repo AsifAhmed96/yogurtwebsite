@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+
+    <!-- This is the Bootstrap CSS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans:300,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <nav class="navbar navbar-light">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="images/Yogurt_logo.svg"
+              alt="Dans' Meat Yogurt Company Logo"
+            />
+          </a>
+        </nav>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- BUTTON - DROPDOWN -->
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto float-right">
+            <li
+              class="nav-item dropdown btn btn-outline-light mr-4"
+              style="width: 120px"
+            >
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Flavors
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Meat</a>
+                <a class="dropdown-item" href="#">Chicken</a>
+                <a class="dropdown-item" href="#">Fish</a>
+                <a class="dropdown-item" href="#">Ham</a>
+              </div>
+            </li>
+
+            <!-- BUTTON - NORMAL -->
+            <li class="nav-item btn btn-outline-light" style="width: 120px">
+              <a class="nav-link text-white" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Jumbotron -->
+
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-12 col-md-7 text-center text-md-left">
+            <h1 class="display-3 text-white drop-shadow">Thick & Creamy</h1>
+            <p class="lead">With real meat chunks</p>
+
+            <a
+              class="btn btn-outline-light btn-lg mt-4 px-5 py-3 mb-5 mb-md-0"
+              href="#"
+              role="button"
+              >Pricing</a
+            >
+          </div>
+          <div class="col-12 col-md-5">
+            <img
+              src="images/hero1.png"
+              alt="Dan's Meat Yogurts"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Founders Message -->
+
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <img
+            src="images/Ceo.jpg"
+            class="img-fluid border rounded-left border-lg border-0"
+            alt="Daniel Walter Scott - Meat Yogurt Founder"
+          />
+        </div>
+        <div
+          class="col-12 col-md-8 p-5 d-flex align-items-center border border-dark rounded-right border-lg"
+        >
+          <section>
+            <h2>Message from our founder</h2>
+            <p class="description">
+              Meat yogurt, known as "yogurtlu kebap" in Turkish cuisine, is a
+              savory dish featuring tender cubes of lamb or beef cooked in a
+              rich, flavorful sauce, then combined with creamy yogurt. This
+              Middle Eastern and Mediterranean delight offers a harmonious blend
+              of succulent meat and the smooth, tangy notes of yogurt, creating
+              a satisfying and comforting meal. It is often served with aromatic
+              spices and garnished with fresh herbs, making it a delicious and
+              wholesome culinary experience.
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <!-- Carousel -->
+
+      <div
+        id="carouselExampleControls"
+        class="carousel slide d-none d-md-block carousel-fade"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="500">
+            <img src="images/yogurt-1.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item" data-interval="500">
+            <img src="images/yogurt-2.png" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item" data-interval="500">
+            <img src="images/yogurt-3.png" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <!-- Cards -->
+      <div class="card-deck my-5">
+        <div class="card shadow" style="width: 18rem">
+          <img src="images/product1.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title"><strong>Chicken Yogurt</strong></h5>
+            <p class="card-text">
+              "Chicken yogurt" typically refers to a dish featuring succulent
+              chicken pieces marinated in a creamy yogurt-based mixture infused
+              with spices and herbs. The yogurt not only adds a delightful
+              tanginess but also helps tenderize the chicken, resulting in a
+              flavorful and tender chicken dish.
+            </p>
+          </div>
+        </div>
+
+        <div class="card shadow" style="width: 18rem">
+          <img src="images/product2.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title"><strong>Meat Yogurt</strong></h5>
+            <p class="card-text">
+              "Meat Yogurt" features tender cubes of lamb or beef cooked to
+              perfection and then combined with a rich, creamy yogurt-based
+              sauce. The yogurt imparts a smooth and tangy contrast to the
+              savory meat, creating a harmonious and satisfying flavor profile.
+            </p>
+          </div>
+        </div>
+
+        <div class="card shadow" style="width: 18rem">
+          <img src="images/product3.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title"><strong>Fish Yogurt</strong></h5>
+            <p class="card-text">
+              "Fish Yogurt" involves gently poached or baked fish fillets, which
+              are then served with a yogurt-based sauce infused with garlic,
+              lemon juice, and fresh herbs like dill or mint. The yogurt adds a
+              refreshing and tangy element to the dish, complementing the
+              natural sweetness of the fish.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- This is the Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
